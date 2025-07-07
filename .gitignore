@@ -1,7 +1,7 @@
 **/.cache
 .direnv
 .envrc
-.vscode/
+.vscode/*
 CMakeCache.txt
 CMakeFiles/
 Makefile
@@ -12,3 +12,5 @@ protocols/*.cpp
 protocols/*.hpp
 *.kdev4
 .gdb_history
+!.vscode/settings.json
+!.vscode/c_cpp_properties.json
